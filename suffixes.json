@@ -1,0 +1,1740 @@
+[
+  {
+    "primary": "ALLEY",
+    "postal": "ALY",
+    "common": [
+      "ALLEE",
+      "ALLEY",
+      "ALLY",
+      "ALY"
+    ]
+  },
+  {
+    "primary": "ANEX",
+    "postal": "ANX",
+    "common": [
+      "ANEX",
+      "ANNEX",
+      "ANNX",
+      "ANX"
+    ]
+  },
+  {
+    "primary": "ARCADE",
+    "postal": "ARC",
+    "common": [
+      "ARC",
+      "ARCADE"
+    ]
+  },
+  {
+    "primary": "AVENUE",
+    "postal": "AVE",
+    "common": [
+      "AV",
+      "AVE",
+      "AVEN",
+      "AVENU",
+      "AVENUE",
+      "AVN",
+      "AVNUE"
+    ]
+  },
+  {
+    "primary": "BAYOU",
+    "postal": "BYU",
+    "common": [
+      "BAYOO",
+      "BAYOU"
+    ]
+  },
+  {
+    "primary": "BEACH",
+    "postal": "BCH",
+    "common": [
+      "BCH",
+      "BEACH"
+    ]
+  },
+  {
+    "primary": "BEND",
+    "postal": "BND",
+    "common": [
+      "BEND",
+      "BND"
+    ]
+  },
+  {
+    "primary": "BLUFF",
+    "postal": "BLF",
+    "common": [
+      "BLF",
+      "BLUF",
+      "BLUFF"
+    ]
+  },
+  {
+    "primary": "BLUFFS",
+    "postal": "BLFS",
+    "common": [
+      "BLUFFS"
+    ]
+  },
+  {
+    "primary": "BOTTOM",
+    "postal": "BTM",
+    "common": [
+      "BOT",
+      "BTM",
+      "BOTTM",
+      "BOTTOM"
+    ]
+  },
+  {
+    "primary": "BOULEVARD",
+    "postal": "BLVD",
+    "common": [
+      "BLVD",
+      "BOUL",
+      "BOULEVARD",
+      "BOULV"
+    ]
+  },
+  {
+    "primary": "BRANCH",
+    "postal": "BR",
+    "common": [
+      "BR",
+      "BRNCH",
+      "BRANCH"
+    ]
+  },
+  {
+    "primary": "BRIDGE",
+    "postal": "BRG",
+    "common": [
+      "BRDGE",
+      "BRG",
+      "BRIDGE"
+    ]
+  },
+  {
+    "primary": "BROOK",
+    "postal": "BRK",
+    "common": [
+      "BRK",
+      "BROOK"
+    ]
+  },
+  {
+    "primary": "BROOKS",
+    "postal": "BRKS",
+    "common": [
+      "BROOKS"
+    ]
+  },
+  {
+    "primary": "BURG",
+    "postal": "BG",
+    "common": [
+      "BURG"
+    ]
+  },
+  {
+    "primary": "BURGS",
+    "postal": "BGS",
+    "common": [
+      "BURGS"
+    ]
+  },
+  {
+    "primary": "BYPASS",
+    "postal": "BYP",
+    "common": [
+      "BYP",
+      "BYPA",
+      "BYPAS",
+      "BYPASS",
+      "BYPS"
+    ]
+  },
+  {
+    "primary": "CAMP",
+    "postal": "CP",
+    "common": [
+      "CAMP",
+      "CP",
+      "CMP"
+    ]
+  },
+  {
+    "primary": "CANYON",
+    "postal": "CYN",
+    "common": [
+      "CANYN",
+      "CANYON",
+      "CNYN"
+    ]
+  },
+  {
+    "primary": "CAPE",
+    "postal": "CPE",
+    "common": [
+      "CAPE",
+      "CPE"
+    ]
+  },
+  {
+    "primary": "CAUSEWAY",
+    "postal": "CSWY",
+    "common": [
+      "CAUSEWAY",
+      "CAUSWA",
+      "CSWY"
+    ]
+  },
+  {
+    "primary": "CENTER",
+    "postal": "CTR",
+    "common": [
+      "CEN",
+      "CENT",
+      "CENTER",
+      "CENTR",
+      "CENTRE",
+      "CNTER",
+      "CNTR",
+      "CTR"
+    ]
+  },
+  {
+    "primary": "CENTERS",
+    "postal": "CTRS",
+    "common": [
+      "CENTERS"
+    ]
+  },
+  {
+    "primary": "CIRCLE",
+    "postal": "CIR",
+    "common": [
+      "CIR",
+      "CIRC",
+      "CIRCL",
+      "CIRCLE",
+      "CRCL",
+      "CRCLE"
+    ]
+  },
+  {
+    "primary": "CIRCLES",
+    "postal": "CIRS",
+    "common": [
+      "CIRCLES"
+    ]
+  },
+  {
+    "primary": "CLIFF",
+    "postal": "CLF",
+    "common": [
+      "CLF",
+      "CLIFF"
+    ]
+  },
+  {
+    "primary": "CLIFFS",
+    "postal": "CLFS",
+    "common": [
+      "CLFS",
+      "CLIFFS"
+    ]
+  },
+  {
+    "primary": "CLUB",
+    "postal": "CLB",
+    "common": [
+      "CLB",
+      "CLUB"
+    ]
+  },
+  {
+    "primary": "COMMON",
+    "postal": "CMN",
+    "common": [
+      "COMMON"
+    ]
+  },
+  {
+    "primary": "COMMONS",
+    "postal": "CMNS",
+    "common": [
+      "COMMONS"
+    ]
+  },
+  {
+    "primary": "CORNER",
+    "postal": "COR",
+    "common": [
+      "COR",
+      "CORNER"
+    ]
+  },
+  {
+    "primary": "CORNERS",
+    "postal": "CORS",
+    "common": [
+      "CORNERS",
+      "CORS"
+    ]
+  },
+  {
+    "primary": "COURSE",
+    "postal": "CRSE",
+    "common": [
+      "COURSE",
+      "CRSE"
+    ]
+  },
+  {
+    "primary": "COURT",
+    "postal": "CT",
+    "common": [
+      "COURT",
+      "CT"
+    ]
+  },
+  {
+    "primary": "COURTS",
+    "postal": "CTS",
+    "common": [
+      "COURTS",
+      "CTS"
+    ]
+  },
+  {
+    "primary": "COVE",
+    "postal": "CV",
+    "common": [
+      "COVE",
+      "CV"
+    ]
+  },
+  {
+    "primary": "COVES",
+    "postal": "CVS",
+    "common": [
+      "COVES"
+    ]
+  },
+  {
+    "primary": "CREEK",
+    "postal": "CRK",
+    "common": [
+      "CREEK",
+      "CRK"
+    ]
+  },
+  {
+    "primary": "CRESCENT",
+    "postal": "CRES",
+    "common": [
+      "CRESCENT",
+      "CRES",
+      "CRSENT",
+      "CRSNT"
+    ]
+  },
+  {
+    "primary": "CREST",
+    "postal": "CRST",
+    "common": [
+      "CREST"
+    ]
+  },
+  {
+    "primary": "CROSSING",
+    "postal": "XING",
+    "common": [
+      "CROSSING",
+      "CRSSNG",
+      "XING"
+    ]
+  },
+  {
+    "primary": "CROSSROAD",
+    "postal": "XRD",
+    "common": [
+      "CROSSROAD"
+    ]
+  },
+  {
+    "primary": "CROSSROADS",
+    "postal": "XRDS",
+    "common": [
+      "CROSSROADS"
+    ]
+  },
+  {
+    "primary": "CURVE",
+    "postal": "CURV",
+    "common": [
+      "CURVE"
+    ]
+  },
+  {
+    "primary": "DALE",
+    "postal": "DL",
+    "common": [
+      "DALE",
+      "DL"
+    ]
+  },
+  {
+    "primary": "DAM",
+    "postal": "DM",
+    "common": [
+      "DAM",
+      "DM"
+    ]
+  },
+  {
+    "primary": "DIVIDE",
+    "postal": "DV",
+    "common": [
+      "DIV",
+      "DIVIDE",
+      "DV",
+      "DVD"
+    ]
+  },
+  {
+    "primary": "DRIVE",
+    "postal": "DR",
+    "common": [
+      "DR",
+      "DRIV",
+      "DRIVE",
+      "DRV"
+    ]
+  },
+  {
+    "primary": "DRIVES",
+    "postal": "DRS",
+    "common": [
+      "DRIVES"
+    ]
+  },
+  {
+    "primary": "ESTATE",
+    "postal": "EST",
+    "common": [
+      "EST",
+      "ESTATE"
+    ]
+  },
+  {
+    "primary": "ESTATES",
+    "postal": "ESTS",
+    "common": [
+      "ESTATES",
+      "ESTS"
+    ]
+  },
+  {
+    "primary": "EXPRESSWAY",
+    "postal": "EXPY",
+    "common": [
+      "EXP",
+      "EXPR",
+      "EXPRESS",
+      "EXPRESSWAY",
+      "EXPW",
+      "EXPY"
+    ]
+  },
+  {
+    "primary": "EXTENSION",
+    "postal": "EXT",
+    "common": [
+      "EXT",
+      "EXTENSION",
+      "EXTN",
+      "EXTNSN"
+    ]
+  },
+  {
+    "primary": "EXTENSIONS",
+    "postal": "EXTS",
+    "common": [
+      "EXTS"
+    ]
+  },
+  {
+    "primary": "FALL",
+    "postal": "FALL",
+    "common": [
+      "FALL"
+    ]
+  },
+  {
+    "primary": "FALLS",
+    "postal": "FLS",
+    "common": [
+      "FALLS",
+      "FLS"
+    ]
+  },
+  {
+    "primary": "FERRY",
+    "postal": "FRY",
+    "common": [
+      "FERRY",
+      "FRRY",
+      "FRY"
+    ]
+  },
+  {
+    "primary": "FIELD",
+    "postal": "FLD",
+    "common": [
+      "FIELD",
+      "FLD"
+    ]
+  },
+  {
+    "primary": "FIELDS",
+    "postal": "FLDS",
+    "common": [
+      "FIELDS",
+      "FLDS"
+    ]
+  },
+  {
+    "primary": "FLAT",
+    "postal": "FLT",
+    "common": [
+      "FLAT",
+      "FLT"
+    ]
+  },
+  {
+    "primary": "FLATS",
+    "postal": "FLTS",
+    "common": [
+      "FLATS",
+      "FLTS"
+    ]
+  },
+  {
+    "primary": "FORD",
+    "postal": "FRD",
+    "common": [
+      "FORD",
+      "FRD"
+    ]
+  },
+  {
+    "primary": "FORDS",
+    "postal": "FRDS",
+    "common": [
+      "FORDS"
+    ]
+  },
+  {
+    "primary": "FOREST",
+    "postal": "FRST",
+    "common": [
+      "FOREST",
+      "FORESTS",
+      "FRST"
+    ]
+  },
+  {
+    "primary": "FORGE",
+    "postal": "FRG",
+    "common": [
+      "FORG",
+      "FORGE",
+      "FRG"
+    ]
+  },
+  {
+    "primary": "FORGES",
+    "postal": "FRGS",
+    "common": [
+      "FORGES"
+    ]
+  },
+  {
+    "primary": "FORK",
+    "postal": "FRK",
+    "common": [
+      "FORK",
+      "FRK"
+    ]
+  },
+  {
+    "primary": "FORKS",
+    "postal": "FRKS",
+    "common": [
+      "FORKS",
+      "FRKS"
+    ]
+  },
+  {
+    "primary": "FORT",
+    "postal": "FT",
+    "common": [
+      "FORT",
+      "FRT",
+      "FT"
+    ]
+  },
+  {
+    "primary": "FREEWAY",
+    "postal": "FWY",
+    "common": [
+      "FREEWAY",
+      "FREEWY",
+      "FRWAY",
+      "FRWY",
+      "FWY"
+    ]
+  },
+  {
+    "primary": "GARDEN",
+    "postal": "GDN",
+    "common": [
+      "GARDEN",
+      "GARDN",
+      "GRDEN",
+      "GRDN"
+    ]
+  },
+  {
+    "primary": "GARDENS",
+    "postal": "GDNS",
+    "common": [
+      "GARDENS",
+      "GDNS",
+      "GRDNS"
+    ]
+  },
+  {
+    "primary": "GATEWAY",
+    "postal": "GTWY",
+    "common": [
+      "GATEWAY",
+      "GATEWY",
+      "GATWAY",
+      "GTWAY",
+      "GTWY"
+    ]
+  },
+  {
+    "primary": "GLEN",
+    "postal": "GLN",
+    "common": [
+      "GLEN",
+      "GLN"
+    ]
+  },
+  {
+    "primary": "GLENS",
+    "postal": "GLNS",
+    "common": [
+      "GLENS"
+    ]
+  },
+  {
+    "primary": "GREEN",
+    "postal": "GRN",
+    "common": [
+      "GREEN",
+      "GRN"
+    ]
+  },
+  {
+    "primary": "GREENS",
+    "postal": "GRNS",
+    "common": [
+      "GREENS"
+    ]
+  },
+  {
+    "primary": "GROVE",
+    "postal": "GRV",
+    "common": [
+      "GROV",
+      "GROVE",
+      "GRV"
+    ]
+  },
+  {
+    "primary": "GROVES",
+    "postal": "GRVS",
+    "common": [
+      "GROVES"
+    ]
+  },
+  {
+    "primary": "HARBOR",
+    "postal": "HBR",
+    "common": [
+      "HARB",
+      "HARBOR",
+      "HARBR",
+      "HBR",
+      "HRBOR"
+    ]
+  },
+  {
+    "primary": "HARBORS",
+    "postal": "HBRS",
+    "common": [
+      "HARBORS"
+    ]
+  },
+  {
+    "primary": "HAVEN",
+    "postal": "HVN",
+    "common": [
+      "HAVEN",
+      "HVN"
+    ]
+  },
+  {
+    "primary": "HEIGHTS",
+    "postal": "HTS",
+    "common": [
+      "HT",
+      "HTS"
+    ]
+  },
+  {
+    "primary": "HIGHWAY",
+    "postal": "HWY",
+    "common": [
+      "HIGHWAY",
+      "HIGHWY",
+      "HIWAY",
+      "HIWY",
+      "HWAY",
+      "HWY"
+    ]
+  },
+  {
+    "primary": "HILL",
+    "postal": "HL",
+    "common": [
+      "HILL",
+      "HL"
+    ]
+  },
+  {
+    "primary": "HILLS",
+    "postal": "HLS",
+    "common": [
+      "HILLS",
+      "HLS"
+    ]
+  },
+  {
+    "primary": "HOLLOW",
+    "postal": "HOLW",
+    "common": [
+      "HLLW",
+      "HOLLOW",
+      "HOLLOWS",
+      "HOLW",
+      "HOLWS"
+    ]
+  },
+  {
+    "primary": "INLET",
+    "postal": "INLT",
+    "common": [
+      "INLT"
+    ]
+  },
+  {
+    "primary": "ISLAND",
+    "postal": "IS",
+    "common": [
+      "IS",
+      "ISLAND",
+      "ISLND"
+    ]
+  },
+  {
+    "primary": "ISLANDS",
+    "postal": "ISS",
+    "common": [
+      "ISLANDS",
+      "ISLNDS",
+      "ISS"
+    ]
+  },
+  {
+    "primary": "ISLE",
+    "postal": "ISLE",
+    "common": [
+      "ISLE",
+      "ISLES"
+    ]
+  },
+  {
+    "primary": "JUNCTION",
+    "postal": "JCT",
+    "common": [
+      "JCT",
+      "JCTION",
+      "JCTN",
+      "JUNCTION",
+      "JUNCTN",
+      "JUNCTON"
+    ]
+  },
+  {
+    "primary": "JUNCTIONS",
+    "postal": "JCTS",
+    "common": [
+      "JCTNS",
+      "JCTS",
+      "JUNCTIONS"
+    ]
+  },
+  {
+    "primary": "KEY",
+    "postal": "KY",
+    "common": [
+      "KEY",
+      "KY"
+    ]
+  },
+  {
+    "primary": "KEYS",
+    "postal": "KYS",
+    "common": [
+      "KEYS",
+      "KYS"
+    ]
+  },
+  {
+    "primary": "KNOLL",
+    "postal": "KNL",
+    "common": [
+      "KNL",
+      "KNOL",
+      "KNOLL"
+    ]
+  },
+  {
+    "primary": "KNOLLS",
+    "postal": "KNLS",
+    "common": [
+      "KNLS",
+      "KNOLLS"
+    ]
+  },
+  {
+    "primary": "LAKE",
+    "postal": "LK",
+    "common": [
+      "LK",
+      "LAKE"
+    ]
+  },
+  {
+    "primary": "LAKES",
+    "postal": "LKS",
+    "common": [
+      "LKS",
+      "LAKES"
+    ]
+  },
+  {
+    "primary": "LAND",
+    "postal": "LAND",
+    "common": [
+      "LAND"
+    ]
+  },
+  {
+    "primary": "LANDING",
+    "postal": "LNDG",
+    "common": [
+      "LANDING",
+      "LNDG",
+      "LNDNG"
+    ]
+  },
+  {
+    "primary": "LANE",
+    "postal": "LN",
+    "common": [
+      "LANE",
+      "LN"
+    ]
+  },
+  {
+    "primary": "LIGHT",
+    "postal": "LGT",
+    "common": [
+      "LGT",
+      "LIGHT"
+    ]
+  },
+  {
+    "primary": "LIGHTS",
+    "postal": "LGTS",
+    "common": [
+      "LIGHTS"
+    ]
+  },
+  {
+    "primary": "LOAF",
+    "postal": "LF",
+    "common": [
+      "LF",
+      "LOAF"
+    ]
+  },
+  {
+    "primary": "LOCK",
+    "postal": "LCK",
+    "common": [
+      "LCK",
+      "LOCK"
+    ]
+  },
+  {
+    "primary": "LOCKS",
+    "postal": "LCKS",
+    "common": [
+      "LCKS",
+      "LOCKS"
+    ]
+  },
+  {
+    "primary": "LODGE",
+    "postal": "LDG",
+    "common": [
+      "LDG",
+      "LDGE",
+      "LODG",
+      "LODGE"
+    ]
+  },
+  {
+    "primary": "LOOP",
+    "postal": "LOOP",
+    "common": [
+      "LOOP",
+      "LOOPS"
+    ]
+  },
+  {
+    "primary": "MALL",
+    "postal": "MALL",
+    "common": [
+      "MALL"
+    ]
+  },
+  {
+    "primary": "MANOR",
+    "postal": "MNR",
+    "common": [
+      "MNR",
+      "MANOR"
+    ]
+  },
+  {
+    "primary": "MANORS",
+    "postal": "MNRS",
+    "common": [
+      "MANORS",
+      "MNRS"
+    ]
+  },
+  {
+    "primary": "MEADOW",
+    "postal": "MDW",
+    "common": [
+      "MEADOW"
+    ]
+  },
+  {
+    "primary": "MEADOWS",
+    "postal": "MDWS",
+    "common": [
+      "MDW",
+      "MDWS",
+      "MEADOWS",
+      "MEDOWS"
+    ]
+  },
+  {
+    "primary": "MEWS",
+    "postal": "MEWS",
+    "common": [
+      "MEWS"
+    ]
+  },
+  {
+    "primary": "MILL",
+    "postal": "ML",
+    "common": [
+      "MILL"
+    ]
+  },
+  {
+    "primary": "MILLS",
+    "postal": "MLS",
+    "common": [
+      "MILLS"
+    ]
+  },
+  {
+    "primary": "MISSION",
+    "postal": "MSN",
+    "common": [
+      "MISSN",
+      "MSSN"
+    ]
+  },
+  {
+    "primary": "MOTORWAY",
+    "postal": "MTWY",
+    "common": [
+      "MOTORWAY"
+    ]
+  },
+  {
+    "primary": "MOUNT",
+    "postal": "MT",
+    "common": [
+      "MNT",
+      "MT",
+      "MOUNT"
+    ]
+  },
+  {
+    "primary": "MOUNTAIN",
+    "postal": "MTN",
+    "common": [
+      "MNTAIN",
+      "MNTN",
+      "MOUNTAIN",
+      "MOUNTIN",
+      "MTIN",
+      "MTN"
+    ]
+  },
+  {
+    "primary": "MOUNTAINS",
+    "postal": "MTNS",
+    "common": [
+      "MNTNS",
+      "MOUNTAINS"
+    ]
+  },
+  {
+    "primary": "NECK",
+    "postal": "NCK",
+    "common": [
+      "NCK",
+      "NECK"
+    ]
+  },
+  {
+    "primary": "ORCHARD",
+    "postal": "ORCH",
+    "common": [
+      "ORCH",
+      "ORCHARD",
+      "ORCHRD"
+    ]
+  },
+  {
+    "primary": "OVAL",
+    "postal": "OVAL",
+    "common": [
+      "OVAL",
+      "OVL"
+    ]
+  },
+  {
+    "primary": "OVERPASS",
+    "postal": "OPAS",
+    "common": [
+      "OVERPASS"
+    ]
+  },
+  {
+    "primary": "PARK",
+    "postal": "PARK",
+    "common": [
+      "PARK",
+      "PRK"
+    ]
+  },
+  {
+    "primary": "PARKS",
+    "postal": "PARK",
+    "common": [
+      "PARKS"
+    ]
+  },
+  {
+    "primary": "PARKWAY",
+    "postal": "PKWY",
+    "common": [
+      "PARKWAY",
+      "PARKWY",
+      "PKWAY",
+      "PKWY",
+      "PKY"
+    ]
+  },
+  {
+    "primary": "PARKWAYS",
+    "postal": "PKWY",
+    "common": [
+      "PARKWAYS",
+      "PKWYS"
+    ]
+  },
+  {
+    "primary": "PASS",
+    "postal": "PASS",
+    "common": [
+      "PASS"
+    ]
+  },
+  {
+    "primary": "PASSAGE",
+    "postal": "PSGE",
+    "common": [
+      "PASSAGE"
+    ]
+  },
+  {
+    "primary": "PATH",
+    "postal": "PATH",
+    "common": [
+      "PATH",
+      "PATHS"
+    ]
+  },
+  {
+    "primary": "PIKE",
+    "postal": "PIKE",
+    "common": [
+      "PIKE",
+      "PIKES"
+    ]
+  },
+  {
+    "primary": "PINE",
+    "postal": "PNE",
+    "common": [
+      "PINE"
+    ]
+  },
+  {
+    "primary": "PINES",
+    "postal": "PNES",
+    "common": [
+      "PINES",
+      "PNES"
+    ]
+  },
+  {
+    "primary": "PLACE",
+    "postal": "PL",
+    "common": [
+      "PL"
+    ]
+  },
+  {
+    "primary": "PLAIN",
+    "postal": "PLN",
+    "common": [
+      "PLAIN",
+      "PLN"
+    ]
+  },
+  {
+    "primary": "PLAINS",
+    "postal": "PLNS",
+    "common": [
+      "PLAINS",
+      "PLNS"
+    ]
+  },
+  {
+    "primary": "PLAZA",
+    "postal": "PLZ",
+    "common": [
+      "PLAZA",
+      "PLZ",
+      "PLZA"
+    ]
+  },
+  {
+    "primary": "POINT",
+    "postal": "PT",
+    "common": [
+      "POINT",
+      "PT"
+    ]
+  },
+  {
+    "primary": "POINTS",
+    "postal": "PTS",
+    "common": [
+      "POINTS",
+      "PTS"
+    ]
+  },
+  {
+    "primary": "PORT",
+    "postal": "PRT",
+    "common": [
+      "PORT",
+      "PRT"
+    ]
+  },
+  {
+    "primary": "PORTS",
+    "postal": "PRTS",
+    "common": [
+      "PORTS",
+      "PRTS"
+    ]
+  },
+  {
+    "primary": "PRAIRIE",
+    "postal": "PR",
+    "common": [
+      "PR",
+      "PRAIRIE",
+      "PRR"
+    ]
+  },
+  {
+    "primary": "RADIAL",
+    "postal": "RADL",
+    "common": [
+      "RAD",
+      "RADIAL",
+      "RADIEL",
+      "RADL"
+    ]
+  },
+  {
+    "primary": "RAMP",
+    "postal": "RAMP",
+    "common": [
+      "RAMP"
+    ]
+  },
+  {
+    "primary": "RANCH",
+    "postal": "RNCH",
+    "common": [
+      "RANCH",
+      "RANCHES",
+      "RNCH",
+      "RNCHS"
+    ]
+  },
+  {
+    "primary": "RAPID",
+    "postal": "RPD",
+    "common": [
+      "RAPID",
+      "RPD"
+    ]
+  },
+  {
+    "primary": "RAPIDS",
+    "postal": "RPDS",
+    "common": [
+      "RAPIDS",
+      "RPDS"
+    ]
+  },
+  {
+    "primary": "REST",
+    "postal": "RST",
+    "common": [
+      "REST",
+      "RST"
+    ]
+  },
+  {
+    "primary": "RIDGE",
+    "postal": "RDG",
+    "common": [
+      "RDG",
+      "RDGE",
+      "RIDGE"
+    ]
+  },
+  {
+    "primary": "RIDGES",
+    "postal": "RDGS",
+    "common": [
+      "RDGS",
+      "RIDGES"
+    ]
+  },
+  {
+    "primary": "RIVER",
+    "postal": "RIV",
+    "common": [
+      "RIV",
+      "RIVER",
+      "RVR",
+      "RIVR"
+    ]
+  },
+  {
+    "primary": "ROAD",
+    "postal": "RD",
+    "common": [
+      "RD",
+      "ROAD"
+    ]
+  },
+  {
+    "primary": "ROADS",
+    "postal": "RDS",
+    "common": [
+      "ROADS",
+      "RDS"
+    ]
+  },
+  {
+    "primary": "ROUTE",
+    "postal": "RTE",
+    "common": [
+      "ROUTE"
+    ]
+  },
+  {
+    "primary": "ROW",
+    "postal": "ROW",
+    "common": [
+      "ROW"
+    ]
+  },
+  {
+    "primary": "RUE",
+    "postal": "RUE",
+    "common": [
+      "RUE"
+    ]
+  },
+  {
+    "primary": "RUN",
+    "postal": "RUN",
+    "common": [
+      "RUN"
+    ]
+  },
+  {
+    "primary": "SHOAL",
+    "postal": "SHL",
+    "common": [
+      "SHL",
+      "SHOAL"
+    ]
+  },
+  {
+    "primary": "SHOALS",
+    "postal": "SHLS",
+    "common": [
+      "SHLS",
+      "SHOALS"
+    ]
+  },
+  {
+    "primary": "SHORE",
+    "postal": "SHR",
+    "common": [
+      "SHOAR",
+      "SHORE",
+      "SHR"
+    ]
+  },
+  {
+    "primary": "SHORES",
+    "postal": "SHRS",
+    "common": [
+      "SHOARS",
+      "SHORES",
+      "SHRS"
+    ]
+  },
+  {
+    "primary": "SKYWAY",
+    "postal": "SKWY",
+    "common": [
+      "SKYWAY"
+    ]
+  },
+  {
+    "primary": "SPRING",
+    "postal": "SPG",
+    "common": [
+      "SPG",
+      "SPNG",
+      "SPRING",
+      "SPRNG"
+    ]
+  },
+  {
+    "primary": "SPRINGS",
+    "postal": "SPGS",
+    "common": [
+      "SPGS",
+      "SPNGS",
+      "SPRINGS",
+      "SPRNGS"
+    ]
+  },
+  {
+    "primary": "SPUR",
+    "postal": "SPUR",
+    "common": [
+      "SPUR"
+    ]
+  },
+  {
+    "primary": "SPURS",
+    "postal": "SPUR",
+    "common": [
+      "SPURS"
+    ]
+  },
+  {
+    "primary": "SQUARE",
+    "postal": "SQ",
+    "common": [
+      "SQ",
+      "SQR",
+      "SQRE",
+      "SQU",
+      "SQUARE"
+    ]
+  },
+  {
+    "primary": "SQUARES",
+    "postal": "SQS",
+    "common": [
+      "SQRS",
+      "SQUARES"
+    ]
+  },
+  {
+    "primary": "STATION",
+    "postal": "STA",
+    "common": [
+      "STA",
+      "STATION",
+      "STATN",
+      "STN"
+    ]
+  },
+  {
+    "primary": "STRAVENUE",
+    "postal": "STRA",
+    "common": [
+      "STRA",
+      "STRAV",
+      "STRAVEN",
+      "STRAVENUE",
+      "STRAVN",
+      "STRVN",
+      "STRVNUE"
+    ]
+  },
+  {
+    "primary": "STREAM",
+    "postal": "STRM",
+    "common": [
+      "STREAM",
+      "STREME",
+      "STRM"
+    ]
+  },
+  {
+    "primary": "STREET",
+    "postal": "ST",
+    "common": [
+      "STREET",
+      "STRT",
+      "ST",
+      "STR"
+    ]
+  },
+  {
+    "primary": "STREETS",
+    "postal": "STS",
+    "common": [
+      "STREETS"
+    ]
+  },
+  {
+    "primary": "SUMMIT",
+    "postal": "SMT",
+    "common": [
+      "SMT",
+      "SUMIT",
+      "SUMITT",
+      "SUMMIT"
+    ]
+  },
+  {
+    "primary": "TERRACE",
+    "postal": "TER",
+    "common": [
+      "TER",
+      "TERR",
+      "TERRACE"
+    ]
+  },
+  {
+    "primary": "THROUGHWAY",
+    "postal": "TRWY",
+    "common": [
+      "THROUGHWAY"
+    ]
+  },
+  {
+    "primary": "TRACE",
+    "postal": "TRCE",
+    "common": [
+      "TRACE",
+      "TRACES",
+      "TRCE"
+    ]
+  },
+  {
+    "primary": "TRACK",
+    "postal": "TRAK",
+    "common": [
+      "TRACK",
+      "TRACKS",
+      "TRAK",
+      "TRK",
+      "TRKS"
+    ]
+  },
+  {
+    "primary": "TRAFFICWAY",
+    "postal": "TRFY",
+    "common": [
+      "TRAFFICWAY"
+    ]
+  },
+  {
+    "primary": "TRAIL",
+    "postal": "TRL",
+    "common": [
+      "TRAIL",
+      "TRAILS",
+      "TRL",
+      "TRLS"
+    ]
+  },
+  {
+    "primary": "TRAILER",
+    "postal": "TRLR",
+    "common": [
+      "TRAILER",
+      "TRLR",
+      "TRLRS"
+    ]
+  },
+  {
+    "primary": "TUNNEL",
+    "postal": "TUNL",
+    "common": [
+      "TUNEL",
+      "TUNL",
+      "TUNLS",
+      "TUNNEL",
+      "TUNNELS",
+      "TUNNL"
+    ]
+  },
+  {
+    "primary": "TURNPIKE",
+    "postal": "TPKE",
+    "common": [
+      "TRNPK",
+      "TURNPIKE",
+      "TURNPK"
+    ]
+  },
+  {
+    "primary": "UNDERPASS",
+    "postal": "UPAS",
+    "common": [
+      "UNDERPASS"
+    ]
+  },
+  {
+    "primary": "UNION",
+    "postal": "UN",
+    "common": [
+      "UN",
+      "UNION"
+    ]
+  },
+  {
+    "primary": "UNIONS",
+    "postal": "UNS",
+    "common": [
+      "UNIONS"
+    ]
+  },
+  {
+    "primary": "VALLEY",
+    "postal": "VLY",
+    "common": [
+      "VALLEY",
+      "VALLY",
+      "VLLY",
+      "VLY"
+    ]
+  },
+  {
+    "primary": "VALLEYS",
+    "postal": "VLYS",
+    "common": [
+      "VALLEYS",
+      "VLYS"
+    ]
+  },
+  {
+    "primary": "VIADUCT",
+    "postal": "VIA",
+    "common": [
+      "VDCT",
+      "VIA",
+      "VIADCT",
+      "VIADUCT"
+    ]
+  },
+  {
+    "primary": "VIEW",
+    "postal": "VW",
+    "common": [
+      "VIEW",
+      "VW"
+    ]
+  },
+  {
+    "primary": "VIEWS",
+    "postal": "VWS",
+    "common": [
+      "VIEWS",
+      "VWS"
+    ]
+  },
+  {
+    "primary": "VILLAGE",
+    "postal": "VLG",
+    "common": [
+      "VILL",
+      "VILLAG",
+      "VILLAGE",
+      "VILLG",
+      "VILLIAGE",
+      "VLG"
+    ]
+  },
+  {
+    "primary": "VILLAGES",
+    "postal": "VLGS",
+    "common": [
+      "VILLAGES",
+      "VLGS"
+    ]
+  },
+  {
+    "primary": "VILLE",
+    "postal": "VL",
+    "common": [
+      "VILLE",
+      "VL"
+    ]
+  },
+  {
+    "primary": "VISTA",
+    "postal": "VIS",
+    "common": [
+      "VIS",
+      "VIST",
+      "VISTA",
+      "VST",
+      "VSTA"
+    ]
+  },
+  {
+    "primary": "WALK",
+    "postal": "WALK",
+    "common": [
+      "WALK"
+    ]
+  },
+  {
+    "primary": "WALKS",
+    "postal": "WALK",
+    "common": [
+      "WALKS"
+    ]
+  },
+  {
+    "primary": "WALL",
+    "postal": "WALL",
+    "common": [
+      "WALL"
+    ]
+  },
+  {
+    "primary": "WAY",
+    "postal": "WAY",
+    "common": [
+      "WY",
+      "WAY"
+    ]
+  },
+  {
+    "primary": "WAYS",
+    "postal": "WAYS",
+    "common": [
+      "WAYS"
+    ]
+  },
+  {
+    "primary": "WELL",
+    "postal": "WL",
+    "common": [
+      "WELL"
+    ]
+  },
+  {
+    "primary": "WELLS",
+    "postal": "WLS",
+    "common": [
+      "WELLS",
+      "WLS"
+    ]
+  }
+]

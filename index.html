@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Police Reports Map</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Mapbox GL JS CSS -->
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+      }
+      .popup-content table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      .popup-content th,
+      .popup-content td {
+        border: 1px solid #ddd;
+        padding: 5px;
+      }
+      .popup-content th {
+        background-color: #f2f2f2;
+      }
+      /* Optional: custom marker style */
+      .marker {
+        width: 2px;
+        height: 2px;
+        background-color: rgb(255, 98, 0);
+        /* border-radius: 50%;
+        cursor: pointer; */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Map Container -->
+    <div id="map"></div>
+
+    <!-- Mapbox GL JS -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+
+    <!-- Main Script -->
+    <script type="module">
+      import reports from "./all_reports_geocoded.json" with { type: "json" };
+      console.log('REPORTS', reports);
+
+      import offensesList from "./offenses.json" with { type: "json" };
+      const offensesMap = Object.fromEntries(offensesList.map(x => [x[0], {name: x[0], category: x[1], severity: x[2]}]))
+      console.log({offensesMap})
+
+      const categories = new Set()
+      for (const [,cat,] of offensesList) categories.add(cat)
+      console.log('CATEGORIES', [...categories].sort())
+
+      const interestingCategories = new Set([
+        "Drug Offense",
+        "Property Crime",
+        "Public Order",
+        "Sexual Offense",
+        "Violent Crime"
+      ])
+
+      let allOffenses = new Set()
+      for (const r of reports) {
+        for (const o of r.offenses) {
+          allOffenses.add(o)
+        }
+      }
+      allOffenses = [...allOffenses.keys()].sort()
+      allOffenses.forEach(x => {
+        if (!offensesMap[x]) {
+          console.log('!!! UNCATEGORIZED OFFENSE', x)
+        }
+      })
+      console.log('all offenses', allOffenses)
+
+      /* Example report (item of the above array):
+         {
+            "reportNumber": "2024-311747",
+            "reportDateTime": "2024-02-01T06:00:00.000Z",
+            "offenseDateTime": "2024-02-01T06:00:00.000Z",
+            "offenses": [
+              "CRASH/FAIL STOP AND RENDER AID",
+              "THEFT",
+            ],
+            "offenseAddress": "11600 ROCK ROSE AVE",
+            "city": "Austin",
+            "zipCode": "78758",
+            "censusTract": "454",
+            "district": "2",
+            "areaCommand": "NORTH WEST",
+            "investigatorAssigned": "AP6288 - BAUER, ERIC",
+            "caseSummary": ""
+          },
+       */
+
+      // Replace with your Mapbox access token
+      mapboxgl.accessToken =
+        "pk.eyJ1IjoidmdvcmRvbjEyMyIsImEiOiJjbTc4YzZ3bzAxN3Z0MnhwdjgyaThpMWdoIn0.0xWQF3_6ZYl_bBTXhAbz2Q";
+
+      // Initialize the Mapbox map
+      const map = new mapboxgl.Map({
+        container: "map",
+        style: "mapbox://styles/mapbox/light-v11",
+        center: [-97.7431, 30.3472], // Centered on Austin
+        zoom: 11,
+      });
+
+      // Function to generate an HTML table from a report object
+      function generateReportTable(report) {
+        let html = '<div class="popup-content"><table>';
+        html += "<tr><th>Field</th><th>Value</th></tr>";
+        for (const key in report) {
+          if (report.hasOwnProperty(key)) {
+            let value = report[key];
+            // Format arrays nicely
+            if (Array.isArray(value)) {
+              if (key === "property") {
+                // For nested arrays in property
+                value = value.map((arr) => arr.join(", ")).join("; ");
+              } else {
+                value = value.join(", ");
+              }
+            }
+            html += `<tr><td>${key}</td><td>${value}</td></tr>`;
+          }
+        }
+        html += "</table></div>";
+        return html;
+      }
+
+      // Compute the most recent report date
+      const reportDates = reports.map(r => new Date(r.reportDateTime));
+      const mostRecentDate = new Date(Math.max(...reportDates));
+
+      // Compute the maximum age (in days) across all reports.
+      let maxAgeDays = 0;
+      reports.forEach(r => {
+        const ageDays = (mostRecentDate - new Date(r.reportDateTime)) / (1000 * 3600 * 24);
+        if (ageDays > maxAgeDays) maxAgeDays = ageDays;
+      });
+
+      
+
+      const geojsonData = {
+          type: "FeatureCollection",
+          features: reports.map(report => {
+            // Compute age in days and relative age (0 = most recent, 1 = oldest)
+            const ageDays = (mostRecentDate - new Date(report.reportDateTime)) / (1000 * 3600 * 24);
+            const ageRelative = maxAgeDays > 0 ? ageDays / maxAgeDays : 0;
+
+            const property = {}
+            for (const [action, item] of report.property || []) {
+              (property[action] ||= []).push(item)
+            }
+
+            const offenses = report.offenses.map(x => offensesMap[x]).sort((a, b) => b.severity - a.severity)
+            return {
+              type: "Feature",
+              geometry: { type: "Point", coordinates: [report.lon, report.lat] },
+              properties: {
+                  reportNumber: report.reportNumber,
+                  offense: report.offenses.join(", "),
+                  stolen: (property.STOLEN || []).join(','),
+                  damaged: (property.DAMAGED || []).join(','),
+                  category: offenses[0]?.category || 'Unknown',
+                  severity: offenses[0]?.severity || 0, // 0 to 100
+                  address: report.offenseAddress,
+                  ageDays,
+                  ageRelative,
+              }
+            }
+          }).filter(x => {
+            return interestingCategories.has(x.properties.category)
+          }).sort((a, b) => a.properties.severity - b.properties.severity)
+      };
+
+      // Once the map loads, add markers for each report
+      map.on("load", () => {
+        map.addSource("reports", { type: "geojson", data: geojsonData });
+
+        // Add symbol layer for fast rendering
+        map.addLayer({
+            id: "report-markers",
+            type: "circle",
+            source: "reports",
+            paint: {
+                "circle-radius": 4,
+                "circle-color": [
+                  "interpolate",
+                  ["linear"],
+                  ["/", ["get", "severity"], 100],
+                  0, "#fff5f0",
+                  0.25, "#fee0d2",
+                  0.5, "#fcbba1",
+                  0.75, "#fb6a4a",
+                  1, "#bd0026"
+                ]
+            }
+        });
+
+        // Add click event to show popup
+        map.on("click", "report-markers", (e) => {
+            const feature = e.features[0];
+            const coordinates = feature.geometry.coordinates.slice();
+            const { reportNumber, offense, category, severity, stolen, damaged, address, ageDays, ageRelative } = feature.properties;
+
+            new mapboxgl.Popup()
+                .setLngLat(coordinates)
+                .setHTML(`<b>Report #:</b> ${reportNumber}<br>
+                          <b>Offense:</b> ${offense}<br>
+                          ${stolen && `<b>Stolen:</b> ${stolen}<br>`}
+                          ${damaged && `<b>Damaged:</b> ${damaged}<br>`}
+                          <b>Category:</b> ${category}<br>
+                          <b>Severity:</b> ${severity}<br>
+                          <b>Age:</b> ${ageDays.toFixed(1)} days<br>
+                          <b>Address:</b> ${address}`
+                )
+                .addTo(map);
+        });
+
+        // Change cursor to pointer when hovering over markers
+        map.on("mouseenter", "report-markers", () => {
+            map.getCanvas().style.cursor = "pointer";
+        });
+        map.on("mouseleave", "report-markers", () => {
+            map.getCanvas().style.cursor = "";
+        });
+      });
+    </script>
+  </body>
+</html>
